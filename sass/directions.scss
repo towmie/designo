@@ -3,11 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 30rem);
   grid-gap: 3rem;
-
-  & a:hover {
-    background: rgba($light-peach, 0.3),
-      url(../assets/home/desktop/image-app-design.jpg);
-  }
+  margin-bottom: 16rem;
 
   &__web-dis {
     grid-column: 1 / 2;
@@ -15,6 +11,7 @@
     border-radius: 1.5rem;
     background-image: url(../assets/home/desktop/image-web-design-large.jpg);
     position: relative;
+    transition: all 0.3s;
 
     &:hover {
       background-image: linear-gradient(
@@ -33,6 +30,7 @@
     border-radius: 1.5rem;
     background-image: url(../assets/home/desktop/image-app-design.jpg);
     position: relative;
+    transition: all 0.3s;
     &:hover {
       background-image: linear-gradient(
           to top,
@@ -49,6 +47,7 @@
     border-radius: 1.5rem;
     background-image: url(../assets/home/desktop/image-graphic-design.jpg);
     position: relative;
+    transition: all 0.3s;
 
     &:hover {
       background-image: linear-gradient(
