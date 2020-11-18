@@ -1,0 +1,14 @@
+.btn-light {
+  text-transform: uppercase;
+  font-weight: 300;
+  border-radius: 0.8rem;
+  background-color: #fff;
+  color: $dark-gray;
+  padding: 1.8rem 2.4rem;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #fff;
+    background-color: $light-peach;
+  }
+}

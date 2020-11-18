@@ -1,0 +1,61 @@
+$peach: #e7816b;
+$black: #1d1c1e;
+$white: #fff;
+$light-peach: #ffad9b;
+$dark-gray: #333136;
+$light-gray: #f1f3f5;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  min-width: 37.5rem;
+  padding: 0 2.4rem;
+
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  line-height: 2.7rem;
+  font-weight: 400;
+  color: $dark-gray;
+
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  & ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+}

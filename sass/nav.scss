@@ -1,0 +1,19 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__item {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+
+    &:not(:first-of-type) {
+      margin-left: 3.7rem;
+    }
+
+    & a:hover {
+      border-bottom: 1px solid $dark-gray;
+    }
+  }
+}
