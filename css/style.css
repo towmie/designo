@@ -57,6 +57,70 @@ p {
     color: #fff;
     background-color: #ffad9b; }
 
+.direction-intro {
+  background-color: #e7816b;
+  border-radius: 1.5rem;
+  width: 100%;
+  min-height: 29rem;
+  margin-bottom: 16rem;
+  background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
+  background-repeat: repeat-y;
+  background-position: 20rem -10rem;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .direction-intro__contact-title {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+    margin-bottom: 1rem; }
+  .direction-intro__contact-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    width: 60rem; }
+
+.card {
+  height: 48rem;
+  width: 34.5rem; }
+  .card__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    background-color: #fdf3f0;
+    border-radius: 1.5rem; }
+    .card__link:hover {
+      background-color: #e7816b;
+      color: #fff; }
+    .card__link:hover h4 {
+      color: #fff; }
+    .card__link:hover p {
+      color: #fff; }
+  .card__img {
+    width: 34.5rem;
+    height: 32rem;
+    border-radius: 1.5rem 1.5rem 0 0; }
+  .card__info {
+    width: 100%; }
+  .card__title {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.6rem;
+    margin-bottom: 1.6rem;
+    margin-top: 3.2rem;
+    color: #e7816b; }
+  .card__text {
+    width: 28rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+    text-align: center;
+    color: #333136;
+    margin-bottom: 3.2rem; }
+
 .header {
   position: relative;
   display: flex;
@@ -265,3 +329,9 @@ p {
     align-items: flex-end; }
   .footer__social-item:not(:first-of-type) {
     margin-left: 1.6rem; }
+
+.cards {
+  margin-bottom: 40rem; }
+  .cards__list {
+    display: flex;
+    flex-wrap: wrap; }

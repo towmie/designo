@@ -1,0 +1,8 @@
+.cards {
+  margin-bottom: 40rem;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
