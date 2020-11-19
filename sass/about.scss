@@ -32,3 +32,37 @@
     font-weight: 300;
   }
 }
+
+.suggestions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdf3f0;
+  border-radius: 1.5rem;
+  margin-bottom: 16rem;
+  overflow: hidden;
+  background-blend-mode: screen;
+  position: relative;
+
+  &__intro-textbox {
+    padding: 0 9.5rem;
+  }
+
+  &__intro-title {
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: $peach;
+    margin-bottom: 3.2rem;
+  }
+  &__intro-text {
+    font-size: 1.5rem;
+    color: $dark-gray;
+    line-height: 2.6rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  &__intro-img {
+    margin-left: -2.5rem;
+  }
+}
