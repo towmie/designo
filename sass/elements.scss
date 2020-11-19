@@ -14,6 +14,22 @@
     background-color: $light-peach;
   }
 }
+.btn-dark {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: $peach;
+  color: $white;
+  padding: 1.5rem 2.4rem;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #fff;
+    background-color: $light-peach;
+  }
+}
 
 .direction-intro {
   background-color: $peach;

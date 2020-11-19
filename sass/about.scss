@@ -44,6 +44,9 @@
   background-blend-mode: screen;
   position: relative;
 
+  &--second {
+    margin-bottom: 38rem;
+  }
   &__intro-textbox {
     padding: 0 9.5rem;
   }
@@ -64,5 +67,30 @@
 
   &__intro-img {
     margin-left: -2.5rem;
+  }
+}
+
+.countries {
+  margin-bottom: 16rem;
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__item {
+    text-transform: uppercase;
+    color: $dark-gray;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 200;
+    margin-bottom: 3.5rem;
+  }
+
+  &__img {
+    position: relative;
   }
 }

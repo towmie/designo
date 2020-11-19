@@ -57,6 +57,20 @@ p {
     color: #fff;
     background-color: #ffad9b; }
 
+.btn-dark {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  border-radius: 0.8rem;
+  background-color: #e7816b;
+  color: #fff;
+  padding: 1.5rem 2.4rem;
+  transition: all 0.2s; }
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #ffad9b; }
+
 .direction-intro {
   background-color: #e7816b;
   border-radius: 1.5rem;
@@ -467,6 +481,8 @@ p {
   overflow: hidden;
   background-blend-mode: screen;
   position: relative; }
+  .suggestions--second {
+    margin-bottom: 38rem; }
   .suggestions__intro-textbox {
     padding: 0 9.5rem; }
   .suggestions__intro-title {
@@ -482,3 +498,20 @@ p {
     margin-bottom: 2rem; }
   .suggestions__intro-img {
     margin-left: -2.5rem; }
+
+.countries {
+  margin-bottom: 16rem; }
+  .countries__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .countries__item {
+    text-transform: uppercase;
+    color: #333136;
+    font-size: 2rem;
+    text-align: center; }
+  .countries__title {
+    font-weight: 200;
+    margin-bottom: 3.5rem; }
+  .countries__img {
+    position: relative; }
