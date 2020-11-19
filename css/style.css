@@ -91,12 +91,8 @@ p {
     align-items: center;
     margin: 2rem 1rem;
     background-color: #fdf3f0;
-<<<<<<< HEAD
     border-radius: 1.5rem;
     transition: all 0.2s; }
-=======
-    border-radius: 1.5rem; }
->>>>>>> b0a1b0951c4fa06e1ae9786bb1faa3483654046b
     .card__link:hover {
       background-color: #e7816b;
       color: #fff; }
@@ -126,7 +122,6 @@ p {
     color: #333136;
     margin-bottom: 3.2rem; }
 
-<<<<<<< HEAD
 .direction-card__item {
   position: absolute;
   top: 50%;
@@ -182,8 +177,6 @@ p {
   .web:hover {
     background-image: linear-gradient(to top, rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url(../assets/home/desktop/image-web-design-large.jpg); }
 
-=======
->>>>>>> b0a1b0951c4fa06e1ae9786bb1faa3483654046b
 .header {
   position: relative;
   display: flex;
@@ -394,7 +387,6 @@ p {
     margin-left: 1.6rem; }
 
 .cards {
-<<<<<<< HEAD
   margin-bottom: 16rem; }
   .cards__list {
     display: flex;
@@ -439,9 +431,3 @@ p {
       right: 0;
       width: 1rem;
       height: 1rem; }
-=======
-  margin-bottom: 40rem; }
-  .cards__list {
-    display: flex;
-    flex-wrap: wrap; }
->>>>>>> b0a1b0951c4fa06e1ae9786bb1faa3483654046b
