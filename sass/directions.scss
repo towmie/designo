@@ -1,3 +1,75 @@
+// .types {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: wrap;
+//   height: 64rem;
+
+//   &__card {
+//     display: block;
+//     border-radius: 1.5rem;
+//     width: 50%;
+//     margin: 1.2rem;
+//     text-align: center;
+//     position: relative;
+
+//     & br {
+//       display: none;
+//     }
+
+//     &--graphdis {
+//       height: 45%;
+//       background-image: url(../assets/home/desktop/image-graphic-design.jpg);
+//       // background-size: cover;
+
+//       &:hover {
+//         background-image: linear-gradient(
+//             to top,
+//             rgba($peach, 0.7),
+//             rgba($peach, 0.7)
+//           ),
+//           url(../assets/home/desktop/image-graphic-design.jpg);
+//       }
+//     }
+//     &--large-img {
+//       height: 94%;
+//       background-repeat: no-repeat;
+//       background-size: cover;
+//     }
+
+//     &--webdis {
+//       background-image: url(../assets/home/desktop/image-web-design-large.jpg);
+
+//       &:hover {
+//         background-image: linear-gradient(
+//             to top,
+//             rgba($peach, 0.7),
+//             rgba($peach, 0.7)
+//           ),
+//           url(../assets/home/desktop/image-web-design-large.jpg);
+//       }
+//     }
+
+//     &--appdis {
+//       height: 45%;
+//       background-image: url(../assets/home/desktop/image-app-design.jpg);
+//       &:hover {
+//         background-image: linear-gradient(
+//             to top,
+//             rgba($peach, 0.7),
+//             rgba($peach, 0.7)
+//           ),
+//           url(../assets/home/desktop/image-app-design.jpg);
+//       }
+//     }
+//   }
+//   &__card-wrapper {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+// }
+
 .directions {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -58,7 +130,6 @@
         url(../assets/home/desktop/image-graphic-design.jpg);
     }
   }
-
   &__item {
     position: absolute;
     top: 50%;

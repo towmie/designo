@@ -57,6 +57,126 @@ p {
     color: #fff;
     background-color: #ffad9b; }
 
+.direction-intro {
+  background-color: #e7816b;
+  border-radius: 1.5rem;
+  width: 100%;
+  min-height: 29rem;
+  margin-bottom: 16rem;
+  background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
+  background-repeat: repeat-y;
+  background-position: 20rem -10rem;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .direction-intro__contact-title {
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 4rem;
+    margin-bottom: 1rem; }
+  .direction-intro__contact-text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+    width: 60rem; }
+
+.card {
+  height: 48rem;
+  width: 34.5rem; }
+  .card__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+    background-color: #fdf3f0;
+    border-radius: 1.5rem;
+    transition: all 0.2s; }
+    .card__link:hover {
+      background-color: #e7816b;
+      color: #fff; }
+    .card__link:hover h4 {
+      color: #fff; }
+    .card__link:hover p {
+      color: #fff; }
+  .card__img {
+    width: 34.5rem;
+    height: 32rem;
+    border-radius: 1.5rem 1.5rem 0 0; }
+  .card__info {
+    width: 100%; }
+  .card__title {
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.6rem;
+    margin-bottom: 1.6rem;
+    margin-top: 3.2rem;
+    color: #e7816b; }
+  .card__text {
+    width: 28rem;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+    text-align: center;
+    color: #333136;
+    margin-bottom: 3.2rem; }
+
+.direction-card__item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center; }
+  .direction-card__item br {
+    display: none; }
+
+.direction-card__title {
+  display: block;
+  font-size: 4rem;
+  font-weight: 200;
+  line-height: 4.8rem;
+  margin-bottom: 3.5rem; }
+
+.direction-card__preview-text {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  padding-right: 2rem; }
+  .direction-card__preview-text::after {
+    content: "";
+    position: absolute;
+    background-image: url(../assets/shared/desktop/icon-right-arrow.svg);
+    background-repeat: no-repeat;
+    top: 0.6rem;
+    right: 0;
+    width: 1rem;
+    height: 1rem; }
+
+.graph {
+  background-image: url(../assets/home/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  transition: all 0.2s; }
+  .graph:hover {
+    background-image: linear-gradient(to top, rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url(../assets/home/desktop/image-graphic-design.jpg); }
+
+.app {
+  background-image: url(../assets/home/desktop/image-app-design.jpg);
+  background-size: cover;
+  transition: all 0.2s; }
+  .app:hover {
+    background-image: linear-gradient(to top, rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url(../assets/home/desktop/image-app-design.jpg); }
+
+.web {
+  background-image: url(../assets/home/desktop/image-web-design-large.jpg);
+  background-size: cover;
+  transition: all 0.2s; }
+  .web:hover {
+    background-image: linear-gradient(to top, rgba(231, 129, 107, 0.7), rgba(231, 129, 107, 0.7)), url(../assets/home/desktop/image-web-design-large.jpg); }
+
 .header {
   position: relative;
   display: flex;
@@ -265,3 +385,49 @@ p {
     align-items: flex-end; }
   .footer__social-item:not(:first-of-type) {
     margin-left: 1.6rem; }
+
+.cards {
+  margin-bottom: 16rem; }
+  .cards__list {
+    display: flex;
+    flex-wrap: wrap; }
+
+.recommends {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38rem; }
+  .recommends__item {
+    margin: 1.2rem;
+    width: 100%;
+    text-align: center;
+    height: 30rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .recommends__item-wrapper br {
+    display: none; }
+  .recommends__title {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #fff;
+    margin-bottom: 3.2rem; }
+  .recommends__preview-text {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding-right: 2rem;
+    letter-spacing: 0.3rem; }
+    .recommends__preview-text::after {
+      content: "";
+      position: absolute;
+      background-image: url(../assets/shared/desktop/icon-right-arrow.svg);
+      background-repeat: no-repeat;
+      top: 0.6rem;
+      right: 0;
+      width: 1rem;
+      height: 1rem; }

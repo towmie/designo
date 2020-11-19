@@ -1,0 +1,50 @@
+.recommends {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38rem;
+
+  &__item {
+    margin: 1.2rem;
+    width: 100%;
+    text-align: center;
+    height: 30rem;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__item-wrapper {
+    & br {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: $white;
+    margin-bottom: 3.2rem;
+  }
+
+  &__preview-text {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding-right: 2rem;
+    letter-spacing: 0.3rem;
+    &::after {
+      content: "";
+      position: absolute;
+      background-image: url(../assets/shared/desktop/icon-right-arrow.svg);
+      background-repeat: no-repeat;
+      top: 0.6rem;
+      right: 0;
+      width: 1rem;
+      height: 1rem;
+    }
+  }
+}
