@@ -35,16 +35,14 @@
   background-color: $peach;
   border-radius: 1.5rem;
   width: 100%;
-  min-height: 29rem;
+  max-height: 25.2rem;
   margin-bottom: 16rem;
   background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
   background-repeat: repeat-y;
   background-position: 20rem -10rem;
   text-align: center;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 6.4rem 2.4rem;
 
   &__contact-title {
     font-size: 4rem;
@@ -57,13 +55,14 @@
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 2.6rem;
-    width: 60rem;
+    max-width: 60rem;
+    margin: 0 auto;
   }
 }
 
 .card {
   height: 48rem;
-  width: 34.5rem;
+  min-width: 35rem;
 
   &__link {
     display: flex;
@@ -102,16 +101,41 @@
     margin-bottom: 1.6rem;
     margin-top: 3.2rem;
     color: $peach;
+    text-align: center;
   }
 
   &__text {
     width: 28rem;
+    margin: 0 auto;
     font-size: 1.6rem;
     line-height: 2.6rem;
     font-weight: 300;
     text-align: center;
     color: $dark-gray;
     margin-bottom: 3.2rem;
+  }
+}
+
+@media (max-width: 73.3rem) {
+  .card {
+    &__link {
+      flex-direction: row;
+    }
+
+    &__title {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 66.5rem) {
+  .card {
+    &__link {
+      flex-direction: column;
+    }
+
+    &__title {
+      text-align: center;
+    }
   }
 }
 

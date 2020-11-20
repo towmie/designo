@@ -1,8 +1,12 @@
 .cards {
+  max-width: 110rem;
+  margin: 0 auto;
+  box-sizing: border-box;
   margin-bottom: 16rem;
 
   &__list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
 }

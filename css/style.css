@@ -77,16 +77,14 @@ p {
   background-color: #e7816b;
   border-radius: 1.5rem;
   width: 100%;
-  min-height: 29rem;
+  max-height: 25.2rem;
   margin-bottom: 16rem;
   background-image: url(../assets/web-design/desktop/bg-pattern-intro-web.svg);
   background-repeat: repeat-y;
   background-position: 20rem -10rem;
   text-align: center;
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  padding: 6.4rem 2.4rem; }
   .direction-intro__contact-title {
     font-size: 4rem;
     font-weight: 300;
@@ -96,11 +94,12 @@ p {
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 2.6rem;
-    width: 60rem; }
+    max-width: 60rem;
+    margin: 0 auto; }
 
 .card {
   height: 48rem;
-  width: 34.5rem; }
+  min-width: 35rem; }
   .card__link {
     display: flex;
     flex-direction: column;
@@ -128,15 +127,29 @@ p {
     line-height: 2.6rem;
     margin-bottom: 1.6rem;
     margin-top: 3.2rem;
-    color: #e7816b; }
+    color: #e7816b;
+    text-align: center; }
   .card__text {
     width: 28rem;
+    margin: 0 auto;
     font-size: 1.6rem;
     line-height: 2.6rem;
     font-weight: 300;
     text-align: center;
     color: #333136;
     margin-bottom: 3.2rem; }
+
+@media (max-width: 73.3rem) {
+  .card__link {
+    flex-direction: row; }
+  .card__title {
+    text-align: center; } }
+
+@media (max-width: 66.5rem) {
+  .card__link {
+    flex-direction: column; }
+  .card__title {
+    text-align: center; } }
 
 .direction-card__item {
   position: absolute;
@@ -502,9 +515,13 @@ p {
     margin-bottom: 3.2rem; } }
 
 .cards {
+  max-width: 110rem;
+  margin: 0 auto;
+  box-sizing: border-box;
   margin-bottom: 16rem; }
   .cards__list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap; }
 
 .recommends {
