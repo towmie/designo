@@ -17,3 +17,10 @@
     }
   }
 }
+@media (max-width: 765px) {
+  .nav {
+    &__list {
+      display: none;
+    }
+  }
+}

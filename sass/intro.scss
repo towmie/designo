@@ -1,8 +1,9 @@
 .intro {
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 64rem;
+  height: 64rem;
   background-color: $peach;
   border-radius: 2rem;
   overflow: hidden;
@@ -21,6 +22,7 @@
   }
 
   &__heading {
+    width: 100%;
     font-size: 4.8rem;
     line-height: 5.2rem;
     font-weight: normal;
@@ -34,5 +36,25 @@
     line-height: 2.6rem;
     color: #fff;
     margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .intro {
+    flex-direction: column;
+    height: 84.3rem;
+
+    &__wrapper {
+      margin: 0;
+      margin-top: 6rem;
+      text-align: center;
+      max-width: 57rem;
+      width: 100%;
+    }
+
+    &__phone-img {
+      margin: 0;
+      margin-top: 7rem;
+    }
   }
 }

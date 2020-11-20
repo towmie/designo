@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  margin: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
   min-width: 37.5rem;
-
   font-size: 1.6rem;
   font-family: "Jost", sans-serif;
   line-height: 2.7rem;
@@ -57,5 +57,6 @@ p {
 .container {
   max-width: 110rem;
   margin: 0 auto;
-  padding: 0 2.4rem;
+  box-sizing: border-box;
+  padding: 0 2rem;
 }

@@ -1,7 +1,19 @@
 .header {
-  position: relative;
+  // position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 15rem;
+
+  &__nav-mob {
+    display: none;
+  }
+}
+@media (max-width: 765px) {
+  .header {
+    &__nav-mob {
+      display: block;
+      margin-left: auto;
+    }
+  }
 }
