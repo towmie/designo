@@ -61,8 +61,10 @@
 }
 
 .card {
-  height: 48rem;
-  min-width: 35rem;
+  max-width: 110rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 16rem;
 
   &__link {
     display: flex;
@@ -113,28 +115,23 @@
     text-align: center;
     color: $dark-gray;
     margin-bottom: 3.2rem;
+    box-sizing: border-box;
+    padding: 0 15px;
   }
 }
 
-@media (max-width: 73.3rem) {
+@media (max-width: 768px) {
   .card {
     &__link {
       flex-direction: row;
     }
-
-    &__title {
-      text-align: center;
-    }
   }
 }
-@media (max-width: 66.5rem) {
+
+@media (max-width: 660px) {
   .card {
     &__link {
       flex-direction: column;
-    }
-
-    &__title {
-      text-align: center;
     }
   }
 }
