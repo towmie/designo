@@ -30,18 +30,30 @@
     </header>
     <main>
 
-    <section class="about container">
+    <section class="about">
         <div class="about__intro-textbox">
             <h3 class="about__intro-title">About Us</h3>
             <p class="about__intro-text">
                 Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences.
             </p>
         </div>
-        <img class="about__intro-img" src="assets/about/desktop/image-about-hero.jpg" alt="" >
+       
+        <!-- <img class="about__intro-img" src="/assets/about/desktop/image-about-hero.jpg" alt="" width="100%"> -->
+        <picture class="about__intro-img container">
+            <source class="about__intro-img" srcset="/assets/about/desktop/image-about-hero.jpg" media="(min-width: 800px)">
+            <source class="about__intro-img" srcset="/assets/about/tablet/image-about-hero.jpg" media="(min-width: 400px)">
+            <img class="about__intro-img" src="/assets/about/mobile/image-about-hero.jpg" alt="borodinsky logo">
+        </picture>
+            
     </section>
 
     <section class="suggestions container">
-        <img class="suggestions__intro-img" src="assets/about/desktop/image-world-class-talent.jpg" alt="" >
+        <!-- <img class="suggestions__intro-img" src="assets/about/tablet/image-world-class-talent.jpg" alt="" > -->
+        <picture class="suggestions__intro-img container">
+            <source class="suggestions__intro-img" srcset="/assets/about/desktop/image-world-class-talent.jpg" media="(min-width: 1000px)">
+            <source class="suggestions__intro-img" srcset="/assets/about/tablet/image-world-class-talent.jpg" media="(min-width: 600px)">
+            <img class="suggestions__intro-img" src="/assets/about/mobile/image-world-class-talent.jpg" alt="borodinsky logo">
+        </picture>
         <div class="suggestions__intro-textbox">
             <h3 class="suggestions__intro-title">World-class talent</h3>
             <p class="suggestions__intro-text">
@@ -83,7 +95,12 @@
                 We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results.
             </p>
         </div>
-        <img class="suggestions__intro-img" src="assets/about/desktop/image-real-deal.jpg" alt="" >
+        <picture class="suggestions__intro-img container">
+            <source class="suggestions__intro-img" srcset="/assets/about/desktop/image-real-deal.jpg" media="(min-width: 1000px)">
+            <source class="suggestions__intro-img" srcset="/assets/about/tablet/image-real-deal.jpg" media="(min-width: 600px)">
+            <img class="suggestions__intro-img" src="/assets/about/mobile/image-real-deal.jpg" alt="borodinsky logo">
+        </picture>
+        <!-- <img class="suggestions__intro-img" src="assets/about/desktop/image-real-deal.jpg" alt="" > -->
     </section>
 
 

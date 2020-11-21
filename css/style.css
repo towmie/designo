@@ -417,7 +417,8 @@ p {
     justify-content: space-between; }
   .footer__contact-wrapper {
     max-width: 60.6rem;
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    margin-bottom: 2rem; }
   .footer__contact-title {
     font-size: 4rem;
     font-weight: 300;
@@ -453,7 +454,8 @@ p {
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 2.6rem;
-    color: rgba(241, 243, 245, 0.7); }
+    color: rgba(241, 243, 245, 0.7);
+    padding-bottom: 4rem; }
   .footer__address {
     width: 33%; }
   .footer__contacts {
@@ -572,6 +574,9 @@ p {
     justify-content: center; } }
 
 .about {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -596,6 +601,20 @@ p {
     line-height: 2.6rem;
     font-weight: 300; }
 
+@media (max-width: 800px) {
+  .about {
+    flex-wrap: wrap; }
+    .about__intro-img {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      margin-bottom: 2rem; }
+    .about__intro-textbox {
+      text-align: center;
+      margin-bottom: 4rem;
+      order: 2;
+      padding: 0 5rem; } }
+
 .suggestions {
   display: flex;
   align-items: center;
@@ -604,15 +623,18 @@ p {
   border-radius: 1.5rem;
   margin-bottom: 16rem;
   overflow: hidden;
-  background-blend-mode: screen;
   position: relative; }
   .suggestions--second {
     margin-bottom: 38rem; }
+    .suggestions--second img {
+      margin-right: -3.7rem; }
   .suggestions__intro-textbox {
-    padding: 0 9.5rem; }
+    padding: 0 9.5rem;
+    padding-right: 18rem; }
   .suggestions__intro-title {
     font-size: 4.8rem;
     font-weight: 400;
+    line-height: 4.8rem;
     color: #e7816b;
     margin-bottom: 3.2rem; }
   .suggestions__intro-text {
@@ -622,7 +644,30 @@ p {
     font-weight: 300;
     margin-bottom: 2rem; }
   .suggestions__intro-img {
-    margin-left: -2.5rem; }
+    margin-left: -4rem;
+    height: 100%; }
+
+@media (max-width: 1000px) {
+  .suggestions {
+    flex-wrap: wrap; }
+    .suggestions__intro-img {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 2rem; }
+    .suggestions__intro-textbox {
+      text-align: center;
+      margin-bottom: 4rem;
+      order: 2;
+      padding: 0 4rem; } }
+
+@media (max-width: 600px) {
+  .suggestions__intro-textbox {
+    padding: 0 20px; }
+  .suggestions__intro-img {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem; } }
 
 .countries {
   margin-bottom: 16rem; }
@@ -640,6 +685,10 @@ p {
     margin-bottom: 3.5rem; }
   .countries__img {
     position: relative; }
+
+@media (max-width: 768px) {
+  .countries__list {
+    flex-wrap: wrap; } }
 
 .location {
   display: grid;
