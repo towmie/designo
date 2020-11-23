@@ -9,6 +9,9 @@
   padding: 5rem 9.5rem;
   box-sizing: border-box;
   margin-bottom: 14rem;
+  background-image: url(../assets/contact/desktop/bg-pattern-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -10rem -20rem;
 
   &__info {
     // max-width: 44.5rem;
@@ -79,6 +82,11 @@
     border: none;
     font-family: inherit;
     padding: 15px 45px;
+  }
+}
+@media (max-width: 1100px) {
+  .contact {
+    max-width: 90vw;
   }
 }
 

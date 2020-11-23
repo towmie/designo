@@ -6,6 +6,7 @@
   position: relative;
   padding-top: 14.4rem;
   color: #fff;
+
   &__nav-img {
     width: 18rem;
     height: 2.4rem;
@@ -25,6 +26,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(../assets/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: 0rem 0;
   }
 
   &__contact-wrapper {
@@ -105,6 +109,13 @@
     margin-left: 1.6rem;
   }
 }
+@media (max-width: 1100px) {
+  .footer {
+    &__contact-section {
+      max-width: 95vw;
+    }
+  }
+}
 
 @media (max-width: 770px) {
   .footer {
@@ -122,6 +133,12 @@
       padding-top: 3.5rem;
       width: 100%;
       border-top: 1px solid rgba($light-gray, 0.3);
+    }
+
+    &__contact-info {
+      background-image: url(../assets/shared/desktop/bg-pattern-call-to-action.svg);
+      background-repeat: no-repeat;
+      background-position: 10rem 0;
     }
 
     &__nav-item {

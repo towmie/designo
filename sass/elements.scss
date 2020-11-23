@@ -60,6 +60,12 @@
   }
 }
 
+@media (max-width: 1100px) {
+  .direction-intro {
+    max-width: 90vw;
+  }
+}
+
 .card {
   max-width: 110rem;
   margin: 0 auto;

@@ -97,6 +97,10 @@ p {
     max-width: 60rem;
     margin: 0 auto; }
 
+@media (max-width: 1100px) {
+  .direction-intro {
+    max-width: 90vw; } }
+
 .card {
   max-width: 110rem;
   margin: 0 auto;
@@ -271,10 +275,17 @@ p {
     color: #fff;
     margin-bottom: 4rem; }
 
+@media (max-width: 1100px) {
+  .intro {
+    max-width: 90vw; } }
+
 @media (max-width: 940px) {
   .intro {
     flex-direction: column;
-    height: 84.3rem; }
+    height: 84.3rem;
+    background-image: url(../assets/home/desktop/bg-pattern-hero-home.svg);
+    background-repeat: no-repeat;
+    background-position: -30rem 0; }
     .intro__wrapper {
       margin: 0;
       margin-top: 6rem;
@@ -434,7 +445,10 @@ p {
     padding: 7.2rem 9.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    background-image: url(../assets/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: 0rem 0; }
   .footer__contact-wrapper {
     max-width: 60.6rem;
     margin-right: 2rem;
@@ -488,6 +502,10 @@ p {
   .footer__social-item:not(:first-of-type) {
     margin-left: 1.6rem; }
 
+@media (max-width: 1100px) {
+  .footer__contact-section {
+    max-width: 95vw; } }
+
 @media (max-width: 770px) {
   .footer__nav {
     display: flex;
@@ -502,6 +520,10 @@ p {
     padding-top: 3.5rem;
     width: 100%;
     border-top: 1px solid rgba(241, 243, 245, 0.3); }
+  .footer__contact-info {
+    background-image: url(../assets/shared/desktop/bg-pattern-call-to-action.svg);
+    background-repeat: no-repeat;
+    background-position: 10rem 0; }
   .footer__nav-item {
     display: block;
     margin-bottom: 3rem; }
@@ -607,7 +629,8 @@ p {
   background-blend-mode: screen;
   position: relative; }
   .about__intro-img {
-    margin-right: -2.5rem; }
+    margin-right: -2.5rem;
+    height: 100%; }
   .about__intro-textbox {
     padding: 0 9.5rem; }
   .about__intro-title {
@@ -621,8 +644,13 @@ p {
     line-height: 2.6rem;
     font-weight: 300; }
 
+@media (max-width: 1100px) {
+  .about {
+    max-width: 90vw; } }
+
 @media (max-width: 800px) {
   .about {
+    max-width: 90vw;
     flex-wrap: wrap; }
     .about__intro-img {
       margin: 0;
@@ -636,6 +664,8 @@ p {
       padding: 0 5rem; } }
 
 .suggestions {
+  max-width: 1100px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -664,12 +694,13 @@ p {
     font-weight: 300;
     margin-bottom: 2rem; }
   .suggestions__intro-img {
-    margin-left: -4rem;
+    margin-left: -2rem;
     height: 100%; }
 
 @media (max-width: 1000px) {
   .suggestions {
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    max-width: 90vw; }
     .suggestions__intro-img {
       width: 100%;
       margin: 0;
@@ -719,7 +750,10 @@ p {
   .location__text {
     background-color: #fdf3f0;
     border-radius: 1.5rem;
-    padding: 4.7rem 9.5rem; }
+    padding: 4.7rem 9.5rem;
+    background-image: url(../assets/shared/desktop/bg-pattern-three-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 30rem 0; }
   .location__text-wrapper {
     display: flex;
     justify-content: space-between;
@@ -795,7 +829,10 @@ p {
   align-items: center;
   padding: 5rem 9.5rem;
   box-sizing: border-box;
-  margin-bottom: 14rem; }
+  margin-bottom: 14rem;
+  background-image: url(../assets/contact/desktop/bg-pattern-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -10rem -20rem; }
   .contact__title {
     font-size: 4.8rem;
     line-height: 4.8rem;
@@ -846,6 +883,10 @@ p {
     border: none;
     font-family: inherit;
     padding: 15px 45px; }
+
+@media (max-width: 1100px) {
+  .contact {
+    max-width: 90vw; } }
 
 @media (max-width: 865px) {
   .contact {
