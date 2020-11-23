@@ -3,6 +3,12 @@
     display: flex;
     align-items: center;
   }
+  &__check {
+    display: none;
+  }
+  &__btn {
+    display: none;
+  }
   &__item {
     font-family: "Jost", sans-serif;
     font-weight: 300;
@@ -19,8 +25,32 @@
 }
 @media (max-width: 765px) {
   .nav {
+    position: relative;
     &__list {
       display: none;
+      &--mob {
+        display: block;
+        left: 0;
+        top: 10rem;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        background-color: #1d1c1e;
+        color: white;
+        position: absolute;
+      }
+    }
+
+    &__btn {
+      display: block;
+    }
+
+    &__item {
+      padding: 1.5rem;
+
+      &:not(:first-of-type) {
+        margin-left: 0;
+      }
     }
   }
 }

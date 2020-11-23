@@ -3,17 +3,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 15rem;
-
+  max-height: 10rem;
+  margin: 7rem auto;
   &__nav-mob {
+    display: none;
+  }
+  &__btn {
+    display: none;
+  }
+  &__check {
     display: none;
   }
 }
 @media (max-width: 765px) {
   .header {
-    &__nav-mob {
+    margin: 3.7rem 0;
+    justify-content: space-between;
+
+    &__btn {
       display: block;
       margin-left: auto;
+    }
+
+    &__check:checked .nav__list {
+      display: block;
     }
   }
 }
